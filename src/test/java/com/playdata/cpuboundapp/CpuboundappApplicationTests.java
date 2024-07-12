@@ -8,6 +8,7 @@ class CpuboundappApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
