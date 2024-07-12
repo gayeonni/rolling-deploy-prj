@@ -27,7 +27,7 @@ public class AppController {
 
     @RequestMapping("/hello2")
     public String hello2() {
-        return "Hi! -update!! old version";
+        return "Hi! -update!! new version";
     }
     
 
