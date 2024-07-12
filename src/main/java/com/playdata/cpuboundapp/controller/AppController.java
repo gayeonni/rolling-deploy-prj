@@ -20,12 +20,15 @@ public class AppController {
     }
 
     
-    //@RequestMapping("/hello")
+    @RequestMapping("/hello")
     public String hello() {
         return "Hi! -update!!";
     }
-    
-    
+
+    @RequestMapping("/hello2")
+    public String hello2() {
+        return "Hi! -update!! old version";
+    }
     
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
