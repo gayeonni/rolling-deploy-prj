@@ -19,11 +19,11 @@ public class AppController {
         return input;
     }
 
-    /*
+    
     @RequestMapping("/hello")
     public String hello() {
         return "Hi! -update!!";
-    }*/
+    }
     
     
     
