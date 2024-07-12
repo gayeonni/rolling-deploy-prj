@@ -20,12 +20,11 @@ public class AppController {
     }
 
     
-    /*
     @RequestMapping("/hello")
     public String hello() {
         return "Hi! -update!!";
     }
-    */
+    
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
         MessageDigest md = MessageDigest.getInstance("MD5");
