@@ -20,14 +20,14 @@ public class AppController {
     }
 
     
-    @RequestMapping("/hello")
+    //@RequestMapping("/hello")
     public String hello() {
         return "Hi! -update!!";
     }
 
     @RequestMapping("/hello2")
     public String hello2() {
-        return "Hi! -update!! ersion";
+        return "Hi! -update!!123 ersion";
     }
     
 
